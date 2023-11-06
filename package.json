@@ -1,0 +1,17 @@
+{
+  "name": "weather",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:api": "npx playwright test --config ./api.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.39.0",
+    "@testomatio/reporter": "^1.0.17",
+    "@types/node": "^20.8.10"
+  }
+}
